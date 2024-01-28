@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c4f885f66c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="project.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="center">
+        <div class="password">
+            <h3 class="heading">password generator</h3>
+            <div class="displayscreen">
+                <p class="display"></p>
+                <div class="copy">
+                    <i class="fas fa-clipboard"></i>
+                </div>
+            </div>
+            <div class="check">
+                <div class="checklabels len">
+                    <label for="">Length</label>
+                    <input type="text" class="labeldis" min='4' max='20'>
+                </div>
+                
+                <div class="checklabels">
+                    <label for="">Only LowerCsae</label>
+                    <input type="checkbox" name="" id="UpperCase">
+                </div>
+
+                <div class="checklabels">
+                    <label for="">Only UpperCase</label>
+                    <input type="checkbox" name="" id="LowerCase">
+                </div>
+
+                <div class="checklabels">
+                    <label for="">Only Numbers</label>
+                    <input type="checkbox" name="" id="Numbers">
+                </div>
+
+                <div class="checklabels">
+                    <label for="">Only Symbols</label>
+                    <input type="checkbox" name="" id="Symbols">
+                </div>
+                <button class="btn">generate password</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

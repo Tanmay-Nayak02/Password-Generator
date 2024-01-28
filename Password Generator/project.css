@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.center{
+    height: 100vh;
+    width: 100%;
+    background-color: #00BFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.password{
+    height: 550px;
+    width: 350px;
+    background-color:#0a0e31;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.password .heading{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.check{
+    padding:3rem;
+}
+
+.checklabels{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.checklabels label{
+    font-size: 25px;
+}
+
+.labeldis{
+    height: 30px;
+    width: 50px;
+    padding-left: 15px;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 2rem;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.display{
+    color: #000;
+    font-size: 1.3rem;
+}
+
+.copy{
+    height: 100%;
+    width: 50px;
+    background-color: black;
+    border: 2px solid #708090;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayscreen{
+    height: 50px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: snow;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
